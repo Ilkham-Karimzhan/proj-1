@@ -2,9 +2,9 @@
   import Location from '../assets/icons/MdiLocation.vue';
 </script>
 <template>
-  <main class="h-[100vh] relative overflow-hidden">
+  <main class=" relative py-[120px] overflow-hidden">
     <section
-      class="w-[1080px] mx-auto flex justify-between z-20 relative h-full items-center pt-[250px] pb-[200px] gap-[300px]"
+      class="w-[1080px] mx-auto flex justify-between z-20 relative h-full items-center gap-[300px]"
     >
       <div class="flex flex-col w-full self-end">
         <p class="flex items-center gap-2 text-white/30">
@@ -43,10 +43,8 @@
           >
         </p>
         <textarea
-          class="px-2 py-4 rounded-lg text-[18px] text-white bg-transparent border border-white/30 w-full h-[145px]"
+          class="px-2 py-4 rounded-lg text-[18px] text-white bg-transparent border border-white/30 w-full h-[145px] resize-none"
           placeholder="Напишите ваш вопрос"
-          name=""
-          id=""
         />
         <button
           class="w-[178px] py-[20px] bg-white/30 text-white/50 text-[15px] rounded-md hover:bg-white/40 transition"

@@ -11,7 +11,8 @@
   "dependencies": {
     "@lucien144/vue3-parallaxy": "^0.1.2",
     "vue": "^3.4.21",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vue3-carousel": "^0.3.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

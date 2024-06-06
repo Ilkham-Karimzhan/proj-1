@@ -5,7 +5,7 @@
   import Cameras from '../components/Cameras.vue';
 </script>
 <template>
-  <section class="relative h-[100vh] overflow-hidden">
+  <section class="relative pb-[160px] overflow-hidden">
     <Main />
     <div class="absolute top-0 z-10 down">
       <Parallaxy :speed="80" class="relative flex justify-start items-center">
